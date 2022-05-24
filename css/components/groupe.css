@@ -1,0 +1,10 @@
+.groupe {
+    margin: 1%;
+    padding: .1rem;
+    background-color: #eeeeee;
+    font: 1.2em "Noto Sans", sans-serif;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: left;
+    width: 45%;
+    }

@@ -1,0 +1,68 @@
+@import url("components/body.css");
+@import url("components/card.css");
+@import url("components/contact.css");
+@import url("components/container.css");
+@import url("components/groupe.css");
+@import url("components/menu.css");
+@import url("components/selection.css");
+
+
+
+.page-content {
+      width: auto;
+      margin: 0px auto;
+      }
+
+
+
+h1 {
+	color: white;
+	background-color: #343746;
+	text-align: left;
+      font: 30px "Noto Sans", sans-serif;
+	}
+
+h3 {
+      color: #6C757D;
+      font: italic 1.2em "Noto Sans", sans-serif;
+      }
+
+
+
+.groupe > h1,
+
+.fait {
+        margin: .5rem;
+        padding: .3rem;
+        font-size: 1.2rem;
+        border-radius: 4px;
+      }
+
+.fait > h2,
+
+.fait > h3,
+
+.fait > p {
+      margin: .2rem;
+      font-size: 1rem;
+      }
+
+
+
+@media (max-width:1920px) {
+      .page {
+            width: 800px;
+            margin: 40px auto;}
+      
+      .groupe {
+      width: 45%;}
+      }
+
+@media (max-width:1350px) {
+      .page {
+            width: 800px;
+            margin: 40px auto;}
+      
+      .groupe {
+      width: 98%;}
+      }
